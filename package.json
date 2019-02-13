@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/LiYanLance/hello-karma#readme",
   "dependencies": {
+    "jasmine": "^3.3.1",
     "karma": "^4.0.0"
   }
 }
